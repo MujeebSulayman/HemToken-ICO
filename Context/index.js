@@ -1,4 +1,4 @@
-import React, { useState, useContext, createContext, useContext } from 'react';
+import React, { useState, useEffect, createContext, useContext } from 'react';
 import { ethers } from 'ethers';
 import {
 	checkIfWalletConnected,
