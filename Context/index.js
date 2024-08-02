@@ -10,10 +10,13 @@ import {
 
 const StateContext = createContext()
 
-export const StateProvider = ({ children }) => {
+export const StateContextProvider = ({ children }) => {
+    const TOKEN_ICO = 'TOKEN SELL DAPP'
     return(
-        <StateContext.Provider value={{}}>
+        <StateContext.Provider value={{TOKEN_ICO}}>
             {children}
         </StateContext.Provider>
     )
 }
+
+export const useStateContext = () => useContext(StateContextProvider);
