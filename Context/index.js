@@ -5,7 +5,7 @@ import {
 	connectWallet,
 	connectingTOKENCONTRACT,
 	getBalance,
-    connectingTOKENSALECONTRACT
+	connectingTOKENCONTRACT,
 } from '../Utils/index';
 
 const StateContext = createContext()
