@@ -5,7 +5,7 @@ const index = () => {
 	const { TOKEN_ICO } = useStateContext();
 
 	return (
-    <div>Hey</div>
+    <div>{TOKEN_ICO}</div>
   )
 };
 
