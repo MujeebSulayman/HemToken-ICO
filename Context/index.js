@@ -32,7 +32,7 @@ export const StateContextProvider = ({ children }) => {
 			let tokenBalance;
 
 			if (account) {
-				tokenBalance = await TOKEN_CONTRACT.balanaceOf(account);
+				tokenBalance = await TOKEN_CONTRACT.balanceOf(account);
 			} else {
 				tokenBalance = 0;
 			}
