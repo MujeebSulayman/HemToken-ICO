@@ -7,6 +7,7 @@ import {
 	getBalance,
 	connectingTOKEN_SALE_CONTRACT,
 } from '../Utils/index';
+import { getAddress } from 'ethers/lib/utils';
 
 const StateContext = createContext();
 
@@ -56,6 +57,36 @@ export const StateContextProvider = ({ children }) => {
 			};
 
 			setNativeToken(nativeToken);
+
+			//Get token Holders
+			const getTokenHolder = await TOKEN_CONTRACT.getTokenHolder();
+			setTokenHolders(getTokenHolder);
+
+			//Get Token holder Data
+			if (account) {
+				const getTokenHolderData = await TOKEN_CONTRACT.getTokenHolderData(
+					account
+				);
+
+				const currentHolder = {
+					tokenId: getTokenHolderData[0].toNumber(),
+					from: getTokenHolderData[1],
+					to: getTokenHolderData[2],
+					totalToken: ethers.utils.formatEther(getTokenHolderData[3].toString),
+					tokenHolder: getTokenHolderData[4],
+				};
+				setCurrentHolder(currentHolder);
+			}
+
+			//TOKEN SALES CONTRACT
+			const TOKEN_SALE_CONTRACT = await connectingTOKEN_SALE_CONTRACT();
+
+			const [tokenPrice, setTokenPrice] = TOKEN_SALE_CONTRACT.tokenPrice();
+			const [tokenSold, setTokenSold] = TOKEN_SALE_CONTRACT.tokenSold();
+			const [tokenSaleBalance, setTokenSaleBalance] =
+				TOKEN_SALE_CONTRACT.balanceOf(
+					'0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512'
+				);
 		} catch (error) {
 			console.log(error);
 		}
