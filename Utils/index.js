@@ -6,7 +6,7 @@ import {
 	TOKEN_ABI,
 	TOKEN_SALE_ABI,
 	TOKEN_SALE_ADDRESS,
-} from '../Context/constants';
+} from '../context/constants';
 
 //CHECK IF WALLET IS CONNECTED FUNCTION
 export const checkIfWalletConnected = async () => {
