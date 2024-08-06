@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-// import { MouseParallax } from 'react-just-parallax';
+import { MouseParallax } from 'react-just-parallax';
 
 import PlusSvg from '../../img_assets/svg/PlusSvg';
 
@@ -47,7 +47,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
 			<Rings />
 
 			{/* Moving background colored circle balls */}
-			{/* <MouseParallax
+			<MouseParallax
 				strength={0.07}
 				parallaxContainerRef={parallaxRef}>
 				<div className='absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[46deg]'>
@@ -97,7 +97,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
 						}`}
 					/>
 				</div>
-			</MouseParallax> */}
+			</MouseParallax>
 		</div>
 	);
 };
