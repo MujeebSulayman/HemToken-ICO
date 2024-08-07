@@ -1,4 +1,4 @@
-import { useStateContext } from '../Context/index';
+import { useStateContext } from '../context/index';
 
 const index = () => {
 	const { TOKEN_ICO, transferNativeToken } = useStateContext();
