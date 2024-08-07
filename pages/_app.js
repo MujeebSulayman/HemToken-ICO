@@ -1,4 +1,4 @@
-import { StateContextProvider } from '../Context/index';
+import { StateContextProvider } from '../context/index';
 import '../styles/globals.css';
 
 export default function App({ Component, pageProps }) {
