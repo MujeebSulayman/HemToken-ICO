@@ -1,14 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-import { fontFamily } from "tailwindcss/defaultTheme";
-import plugin from "tailwindcss/plugin";
+import { fontFamily } from 'tailwindcss/defaultTheme';
+import plugin from 'tailwindcss/plugin';
 
 export default {
-	content: [
-		'./app/**/*.{html,js,jsx}',
-		'./components/**/*.{html,js,jsx}',
-		'./sections/**/*.{html,js,jsx}',
-		'./styles/**/*.{js,jsx}',
-	],
+	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
 			colors: {
