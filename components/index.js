@@ -6,30 +6,30 @@ import Client from './Client';
 import Contact from './Contact';
 import Distribution from './Distribution';
 import Faq from './Faq';
-import Header from './Header';
 import Footer from './Footer';
-import Loader from './Loader';
 import MobileApp from './MobileApp';
-import Service from './Service';
-import TimeLine from './TimeLine';
 import Team from './Team';
 import TokenSale from './TokenSale';
+import TimeLine from './TimeLine';
+import Service from './Service';
+import Loader from './Loader';
+import Header from './Header';
 
-export {
-	About,
-	ArrowUp,
-	Banner,
-	Blog,
-	Client,
-	Contact,
-	Distribution,
-	Faq,
-	Header,
-	Footer,
-	Loader,
-	MobileApp,
-	Service,
-	TimeLine,
-	Team,
-	TokenSale,
-};
+export{
+    About,
+    ArrowUp,
+    Banner,
+    Blog,
+    Client,
+    Contact,
+    Distribution,
+    Faq,
+    Footer,
+    MobileApp,
+    Team,
+    TokenSale,
+    TimeLine,
+    Service,
+    Loader,
+    Header
+}

@@ -1,4 +1,5 @@
 import { useStateContext } from '../context/index';
+
 import {
 	About,
 	ArrowUp,
@@ -8,14 +9,14 @@ import {
 	Contact,
 	Distribution,
 	Faq,
-	Header,
 	Footer,
-	Loader,
 	MobileApp,
-	Service,
-	TimeLine,
 	Team,
 	TokenSale,
+	TimeLine,
+	Service,
+	Loader,
+	Header,
 } from '../components/index';
 
 const index = () => {
@@ -34,7 +35,7 @@ const index = () => {
 	} = useStateContext();
 
 	return (
-		<div className='v_dark '>
+		<div className='v_dark'>
 			<Header
 				address={address}
 				setAddress={setAddress}
