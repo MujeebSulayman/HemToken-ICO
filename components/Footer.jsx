@@ -1,7 +1,100 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
-  return <div>Footer</div>;
+	const footerMenu = ['CryptoCash', 'How it work', 'Token', 'FAQ', 'Contact'];
+
+	return (
+		<footer
+			className='top_footer bg_light_dark'
+			data-z-index='1'
+			data-parallex='scroll'
+			data-image-src='assets/images/footer_bg.png'>
+			<div className='container'>
+				<div className='row'>
+					<div className='col-lg-4 col-md-12'>
+						<div
+							className='footer_logo mb-3 animation'
+							data-animation='fadeInUp'
+							data-animation-delay='0.2s'>
+							<a
+								href='#home_scroll'
+								className='page-scroll'>
+								<img
+									src='assets/images/brainwave.svg'
+									alt='logo'
+								/>
+							</a>
+							<div className='footer_desc'>
+								<p
+									className='animation'
+									data-animation='fadeInUp'
+									data-animation-delay='0.5s'>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Expedita ipsam iste error ad dolore eos eveniet cum enim sed.
+									Voluptates praesentium sit quia nulla? Voluptate quia culpa
+									officia fuga debitis!
+								</p>
+							</div>
+						</div>
+
+						<div className='col-lg-3 col-md-6 res_md_mt_30 res_sm_mt_20'>
+							<h4
+								className='footer_title border_title animation'
+								data-animation='fadeInUp'
+								data-animation-delay='0.2s'>
+								Quick Links
+							</h4>
+
+							<ul className='footer_link'>
+								{footerMenu.map((list, i) => (
+									<li
+										className='animation'
+										data-animation='fadeInUp'
+										data-animation-delay={`0.${i + 2}s`}>
+										<a href=''>{list}</a>
+									</li>
+								))}
+							</ul>
+						</div>
+
+						<div className='col-lg-5 col-md-6 res_md_mt res_sm_mt_20'>
+							<div className='newsletter_form'>
+								<h4 className='footer_title border_title animation'>
+									Newsletter
+								</h4>
+								<p
+									className='animation'
+									data-animation='fadeInUp'
+									data-animation-delay='0.5s'>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Similique, aperiam minima.
+								</p>
+								<form
+									action='#'
+									className='subscribe_form animation'
+									data-animation='fadeInUp'
+									data-animation-delay='0.5s'>
+                    <input type="text" required placeholder='Email Address' className='input-rounded' />
+                    <button type='submit' title='Subscribe' className='btn-info' name='submit' value='Submit' >Subscribe</button>
+                  </form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      <div className='bottom_footer'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-6'>
+              <p className='copyright'>
+                Copyright &copy; 2024. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+		</footer>
+	);
 };
 
 export default Footer;

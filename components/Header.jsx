@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiMenu } from 'react-icons/bi';
 
-const Header = ({address, setAddress, connectWallet}) => {
+const Header = ({ address, setAddress, connectWallet }) => {
 	const menuList = [
 		{
 			menu: 'Home',
@@ -75,7 +75,7 @@ const Header = ({address, setAddress, connectWallet}) => {
 									data-animation-delay={`1.${i + 1}s`}>
 									<a
 										href={menu.link}
-										className='nav-link'>
+										className='nav-link navtest'>
 										{menu.menu}
 									</a>
 								</li>
@@ -90,17 +90,14 @@ const Header = ({address, setAddress, connectWallet}) => {
 								{address ? (
 									<a
 										href=''
-										className='btn-custom-blue rounded-1 nav_item'>
-										<small className='new-color'>
-											{' '}
-											{address.slice(0, 15)}...{' '}
-										</small>
+										className='btn-custom-blue nav_item'>
+										{address.slice(0, 15)}...{' '}
 									</a>
 								) : (
 									<a
 										onClick={() => connectWallet()}
-										className='btn btn-default btn-radius nav_item'>
-										<small className='new-color'> Connect Wallet</small>
+										className=' btn-custom-blue nav_item'>
+										Connect Wallet
 									</a>
 								)}
 							</li>
