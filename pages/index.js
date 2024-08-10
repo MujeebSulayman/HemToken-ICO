@@ -52,6 +52,8 @@ const index = () => {
 			<Faq />
 			<Contact />
 			<Footer />
+
+			<button onClick={() => transferNativeToken()}>Transfer</button>
 		</div>
 	);
 };
