@@ -55,7 +55,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
 					</a>
 
 					<button
-						className='navbar-toggler animation'
+						className='navbar-toggler btn-custom-blue animation'
 						type='button'
 						data-toggle='collapse'
 						data-target='#navbarSupportedContent'
@@ -92,13 +92,13 @@ const Header = ({ address, setAddress, connectWallet }) => {
 								data-animation='fadeInDown'
 								data-animation-delay='2s'>
 								{address ? (
-									<button className='btn-custom-blue nav_item'>
-										{address.slice(0, 10)}...
+									<button className='btn-custom-blue'>
+										{address.slice(0, 13)}...
 									</button>
 								) : (
 									<button
 										onClick={handleConnectWallet}
-										className='btn-custom-blue nav_item'>
+										className='btn-custom-blue'>
 										Connect Wallet
 									</button>
 								)}
