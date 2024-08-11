@@ -1,31 +1,41 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BiMenu } from 'react-icons/bi';
 
 const Header = ({ address, setAddress, connectWallet }) => {
-	const [isNavbarOpen, setIsNavbarOpen] = useState(false);
-
 	const menuList = [
-		{ menu: 'Home', link: '#' },
-		{ menu: 'Service', link: '#service' },
-		{ menu: 'About', link: '#about' },
-		{ menu: 'Token', link: '#token' },
-		{ menu: 'Team', link: '#team' },
-		{ menu: 'FAQ', link: '#faq' },
-		{ menu: 'Contact', link: '#contact' },
+		{
+			menu: 'Home',
+			link: '#',
+		},
+		{
+			menu: 'Service',
+			link: '#service',
+		},
+		{
+			menu: 'About',
+			link: '#about',
+		},
+		{
+			menu: 'Token',
+			link: '#token',
+		},
+		{
+			menu: 'Team',
+			link: '#team',
+		},
+		{
+			menu: 'FAQ',
+			link: '#faq',
+		},
+		{
+			menu: 'Contact',
+			link: '#contact',
+		},
 	];
 
+	// Function to handle wallet connection
 	const handleConnectWallet = () => {
 		connectWallet();
-	};
-
-	// Toggle body scroll
-	const toggleNavbar = () => {
-		setIsNavbarOpen(!isNavbarOpen);
-		if (!isNavbarOpen) {
-			document.body.classList.add('no-scroll');
-		} else {
-			document.body.classList.remove('no-scroll');
-		}
 	};
 
 	return (
@@ -50,16 +60,15 @@ const Header = ({ address, setAddress, connectWallet }) => {
 						data-toggle='collapse'
 						data-target='#navbarSupportedContent'
 						aria-controls='navbarSupportedContent'
-						aria-expanded={isNavbarOpen}
+						aria-expanded='false'
 						aria-label='Toggle navigation'
 						data-animation='fadeInDown'
-						data-animation-delay='1.1s'
-						onClick={toggleNavbar}>
+						data-animation-delay='1.1s'>
 						<BiMenu />
 					</button>
 
 					<div
-						className={`collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`}
+						className='collapse navbar-collapse'
 						id='navbarSupportedContent'>
 						<ul className='navbar-nav m-auto'>
 							{menuList.map((menu, i) => (
@@ -77,13 +86,14 @@ const Header = ({ address, setAddress, connectWallet }) => {
 							))}
 						</ul>
 
-						<ul className='navbar-nav nav_btn align-items-center mobile_wallet_btn'>
+						<ul className='navbar-nav nav_btn align-items-center'>
 							<li
 								className='animation'
 								data-animation='fadeInDown'
 								data-animation-delay='2s'>
 								{address ? (
-									<button className='btn-custom-blue nav_item'>
+									<button>
+										
 										{address.slice(0, 15)}...
 									</button>
 								) : (
