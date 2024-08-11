@@ -50,7 +50,6 @@ const Banner = ({ transferNativeToken }) => {
 											id='whitepaper'>
 											Transfer Token
 										</a>
-
 									</div>
 								</div>
 							</div>

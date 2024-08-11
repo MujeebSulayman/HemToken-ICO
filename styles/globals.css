@@ -56,12 +56,12 @@
 }
 
 .btn-custom-blue1 {
-	padding: 15px 30px;
+	padding: 15px 25px;
 	background-color: #ac6aff;
 	color: white;
 	border-radius: 5px;
 }
-.gradient-box {
+/* .gradient-box {
 	background-color: #9c71d1;
 	color: white;
 	padding-top: 7px;
@@ -70,19 +70,30 @@
 	padding-left: 10px;
 	border-radius: 1px;
 	font-weight: 700;
-}
+} */
 
 .ani {
 	padding-bottom: 20px;
 }
 
+
 .btn-custom-blue2 {
-	padding: 15px 30px;
-	background-color: white;
-	color: rgb(20, 0, 0);
+	padding: 15px 20px;
+	background-color: #339c4d;
+	color: rgb(255, 255, 255);
 	border-radius: 5px;
 	font-weight: 500;
 	margin-left: 20px;
+}
+
+.btn-custom-blue2:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.btn-custom-blue1:hover {
+	color: white;
+	background-color: #ad6aff77;
 }
 
 .btn-custom-blue {
