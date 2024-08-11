@@ -43,13 +43,13 @@
 }
 
 .top {
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #0d0d27;
 }
 
 .HemToken{
-	font-size: 40px;
+	font-size: 45px;
 	color: rgb(255, 255, 255);
 }
 
@@ -58,7 +58,7 @@
 }
 
 .padding-up {
-	padding-top: 15rem;
+	padding-top: 13rem;
 }
 
 .btn-custom-blue1 {

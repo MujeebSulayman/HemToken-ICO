@@ -30,8 +30,7 @@ const Banner = ({ transferNativeToken }) => {
 										className='animation presale-txt text-white ani'
 										data-animation='fadeInUp'
 										data-animation-delay='1.1s'>
-										HemToken Presale is{' '}
-										<mark className='gradient-box'>Live</mark>
+										HemToken Presale is <strong>Live</strong>
 									</h5>
 
 									<div
