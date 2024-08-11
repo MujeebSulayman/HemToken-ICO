@@ -17,13 +17,11 @@ const Header = ({ address, setAddress, connectWallet }) => {
 		},
 		{
 			menu: 'Token',
-			menu: 'token',
-			link: '#',
+			link: '#token',
 		},
 		{
 			menu: 'Team',
-			menu: 'team',
-			link: '#',
+			link: '#team',
 		},
 		{
 			menu: 'FAQ',
@@ -34,6 +32,12 @@ const Header = ({ address, setAddress, connectWallet }) => {
 			link: '#contact',
 		},
 	];
+
+	// Function to handle wallet connection
+	const handleConnectWallet = () => {
+		connectWallet();
+	};
+
 	return (
 		<div className='header_wrap fixed-top'>
 			<div className='container-fluid'>
@@ -82,23 +86,21 @@ const Header = ({ address, setAddress, connectWallet }) => {
 							))}
 						</ul>
 
-						<ul className='navbar-nav nav_btn align-items-center'>
+						<ul className='navbar-nav nav_btn align-items-center mobile_wallet_btn'>
 							<li
 								className='animation'
 								data-animation='fadeInDown'
 								data-animation-delay='2s'>
 								{address ? (
-									<a
-										href=''
-										className='btn-custom-blue nav_item'>
-										{address.slice(0, 15)}...{' '}
-									</a>
+									<button className='btn-custom-blue nav_item'>
+										{address.slice(0, 15)}...
+									</button>
 								) : (
-									<a
-										onClick={() => connectWallet()}
-										className=' btn-custom-blue nav_item'>
+									<button
+										onClick={handleConnectWallet}
+										className='btn-custom-blue nav_item'>
 										Connect Wallet
-									</a>
+									</button>
 								)}
 							</li>
 						</ul>

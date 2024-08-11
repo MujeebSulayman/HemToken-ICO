@@ -72,6 +72,8 @@
 	color: aliceblue;
 }
 
+
+
 @media only screen and (max-width: 768px) {
 	.new_image_css {
 		width: 50%;
