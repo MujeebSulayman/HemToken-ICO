@@ -92,9 +92,8 @@ const Header = ({ address, setAddress, connectWallet }) => {
 								data-animation='fadeInDown'
 								data-animation-delay='2s'>
 								{address ? (
-									<button>
-										
-										{address.slice(0, 15)}...
+									<button className='btn-custom-blue nav_item'>
+										{address.slice(0, 10)}****
 									</button>
 								) : (
 									<button

@@ -95,29 +95,6 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-
-			<div className='bottom_footer'>
-				<div className='container'>
-					<div className='row'>
-						<div className='col-md-6'>
-							<p className='copyright'>
-								Copyright &copy; 2024. All Rights Reserved
-							</p>
-						</div>
-
-						<div className='col-md-6'>
-							<ul className='list_none footer_menu'>
-								<li>
-									<a href='#'>Terms and Conditions</a>
-								</li>
-								<li>
-									<a href='#'>Privacy Policy</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
 		</footer>
 	);
 };
