@@ -52,6 +52,10 @@ const Banner = ({ transferNativeToken }) => {
 									</div>
 								</div>
 							</div>
+
+                <div className='col-lg-6 col-md-12 col-sm-12 order-first'>
+                  <img src="assets/images/banner_img2.png" alt="" />
+                </div>
 						</div>
 					</div>
 				</div>
