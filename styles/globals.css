@@ -73,6 +73,37 @@
 }
 
 
+/* Add this CSS to your stylesheet */
+
+@media (max-width: 991.98px) { /* This targets mobile devices */
+    .navbar-collapse {
+        background-color: white; /* Set the background color to white */
+        padding: 15px; /* Optional: add some padding for better spacing */
+        border-radius: 5px; /* Optional: add border-radius for smooth corners */
+    }
+
+    .navbar-nav .nav-link {
+        color: #000; /* Optional: change the text color to black for better contrast */
+    }
+}
+
+/* Disable scrolling when the navbar is open */
+.no-scroll {
+    overflow: hidden;
+    height: 100%;
+}
+
+/* Ensuring the navbar menu scrolls if content overflows */
+.navbar-collapse {
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px) {
 	.new_image_css {
