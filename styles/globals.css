@@ -48,6 +48,11 @@
 	background-color: #0d0d27;
 }
 
+.HemToken{
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+}
+
 .top-pad {
 	padding-bottom: 100rem;
 }
