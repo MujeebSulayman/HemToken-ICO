@@ -39,7 +39,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
 	};
 
 	return (
-		<div className='header_wrap fixed-top'>
+		<div className='top fixed-top'>
 			<div className='container-fluid'>
 				<nav className='navbar navbar-expand-lg'>
 					<a
@@ -93,7 +93,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
 								data-animation-delay='2s'>
 								{address ? (
 									<button className='btn-custom-blue nav_item'>
-										{address.slice(0, 10)}****
+										{address.slice(0, 10)}...
 									</button>
 								) : (
 									<button

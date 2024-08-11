@@ -42,21 +42,65 @@
 	font-size: 1.1rem;
 }
 
+.top {
+	padding-top: 20px;
+	background-color: #0d0d27;
+}
 
-.btn-custom-blue {
-	padding: 15px 15px;
+.top-pad {
+	padding-bottom: 100rem;
+}
+
+.padding-up {
+	padding-top: 15rem;
+}
+
+.btn-custom-blue1 {
+	padding: 15px 30px;
+	background-color: #ac6aff;
 	color: white;
 	border-radius: 5px;
+}
+.gradient-box {
+	background-color: #9c71d1;
+	color: white;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 1px;
+	font-weight: 700;
+}
+
+.ani {
+	padding-bottom: 20px;
+}
+
+.btn-custom-blue2 {
+	padding: 15px 30px;
+	background-color: white;
+	color: rgb(20, 0, 0);
+	border-radius: 5px;
+	font-weight: 500;
+	margin-left: 20px;
+}
+
+.btn-custom-blue {
+	padding: 10px 20px;
+	color: white;
+	border-radius: 2px;
 	background-color: #ac6aff;
 	font-size: 16px;
 	display: flex;
+	font-size: 15px;
 	justify-content: center;
 	justify-items: center;
 	cursor: pointer;
 }
+
 .navtest {
 	color: #fff;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .navtest:hover {
