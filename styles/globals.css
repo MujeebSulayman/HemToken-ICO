@@ -150,7 +150,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  flex-wrap: wrap; /* Allows the content to wrap on smaller screens */
+  margin-right: 80px;
+  margin-left: 60px;
+  flex-wrap: wrap;
 }
 
 .hero-content {
@@ -159,10 +161,7 @@
 
 
 
-.hero-buttons {
-  display: flex;
-  gap: 20px;
-}
+
 
 .btn-primary, .btn-secondary {
   padding: 15px 30px;
