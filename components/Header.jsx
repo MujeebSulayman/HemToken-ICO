@@ -39,7 +39,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
 	};
 
 	return (
-		<div className='top'>
+		<div className='top fixed-top'>
 			<div className='container-fluid'>
 				<nav className='navbar navbar-expand-lg'>
 					<a
