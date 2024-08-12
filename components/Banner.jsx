@@ -9,8 +9,7 @@ const Banner = ({ transferNativeToken }) => {
 		<div className=''>
 			<section
 				id='home_section'
-				className=''
-				data-zindex='1'
+				data-z-index='1'
 				data-parallax='scroll'>
 				<div className='banner_effect'>
 					<div className='container'>
@@ -59,7 +58,6 @@ const Banner = ({ transferNativeToken }) => {
 					</div>
 				</div>
 			</section>
-
 		</div>
 	);
 };
