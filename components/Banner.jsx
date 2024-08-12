@@ -12,7 +12,7 @@ const Banner = ({ transferNativeToken }) => {
 					className='animation HemToken'
 					data-animation='fadeInUp'
 					data-animation-delay='1.1s'>
-					Sell and exchange cryptocurrency tokens
+					Sell and exchange digital tokens
 				</h1>
 				<h5
 					className='animation presale-txt text-white ani'
