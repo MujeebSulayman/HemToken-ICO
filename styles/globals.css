@@ -138,25 +138,20 @@
 }
 
 
-@media (max-width: 767px) {
-    .custom-image {
-        padding-top: 20px; /* Adjust the value as needed */
-        padding-bottom: 20px; /* Adjust the value as needed */
-    }
-}
+
 
 .hero-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  margin-right: 80px;
-  margin-left: 60px;
   flex-wrap: wrap;
+   gap: 20px;
 }
 
 .hero-content {
-  max-width: 50%;
+	 max-width: 50%;
+  margin-right: 20px; /* Reduce margin to bring content closer to image */
 }
 
 
