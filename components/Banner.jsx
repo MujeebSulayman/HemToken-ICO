@@ -6,7 +6,7 @@ import { AIOutlineCloudDownload } from 'react-icons/ai';
 
 const Banner = ({ transferNativeToken }) => {
 	return (
-		<div className=''>
+		
 			<section
 				id='home_section'
 				data-z-index='1'
@@ -59,7 +59,7 @@ const Banner = ({ transferNativeToken }) => {
 					</div>
 				</div>
 			</section>
-		</div>
+	
 	);
 };
 
