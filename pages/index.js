@@ -42,18 +42,17 @@ const index = () => {
 				connectWallet={connectWallet}
 			/>
 			<Banner transferNativeToken={transferNativeToken} />
-			<div className='topped'>
-				<TokenSale
-					buyToken={buyToken}
-					tokenSale={tokenSale}
-				/>
-				<Distribution />
-				<MobileApp />
-				<Team />
-				<Faq />
-				<Contact />
-				<Footer />
-			</div>
+
+			<TokenSale
+				buyToken={buyToken}
+				tokenSale={tokenSale}
+			/>
+			<Distribution />
+			<MobileApp />
+			<Team />
+			<Faq />
+			<Contact />
+			<Footer />
 		</div>
 	);
 };
