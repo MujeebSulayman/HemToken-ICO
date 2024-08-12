@@ -64,8 +64,9 @@
 }
 
 .HemToken {
-	font-size: 45px;
+	font-size: 55px;
 	color: rgb(255, 255, 255);
+  padding-bottom: 40px;
 }
 
 
@@ -83,7 +84,9 @@
 }
 
 .ani {
-	padding-bottom: 20px;
+	padding-bottom: 25px;
+  padding-top: 20px;
+  font-size: 17;
 }
 
 .btn-custom-blue2 {
