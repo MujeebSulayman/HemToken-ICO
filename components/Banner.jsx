@@ -49,7 +49,7 @@ const Banner = ({ transferNativeToken }) => {
 									</div>
 								</div>
 							</div>
-							<div className='col-lg-6 imagecus'>
+							<div className='col-12 col-sm-10 col-md-8 col-lg-6 mx-auto'>
 								<img
 									src='assets/images/robot.jpg'
 									className='rounded mx-auto d-block custom-image'
