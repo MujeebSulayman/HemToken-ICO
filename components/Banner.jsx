@@ -18,7 +18,7 @@ const Banner = ({ transferNativeToken }) => {
 					className='animation presale-txt text-white ani'
 					data-animation='fadeInUp'
 					data-animation-delay='1.1s'>
-					HemToken Presale is <strong>Live</strong>
+					Presale is live
 				</h5>
 				<div
 					className='btn_group pt-2 pb-3 animation butgrp'
@@ -40,7 +40,9 @@ const Banner = ({ transferNativeToken }) => {
 				<img
 					src='assets/images/service-1.png'
 					height={600}
-					className='custom-image'
+					className='custom-image animation'
+					data-animation='fadeInUp'
+					data-animation-delay='1.1s'
 					width={500}
 					alt='HemToken'
 				/>
