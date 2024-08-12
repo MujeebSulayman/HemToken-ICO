@@ -49,12 +49,9 @@ const Banner = ({ transferNativeToken }) => {
 									</div>
 								</div>
 							</div>
-							<div className='col-12 col-sm-10 col-md-8 col-lg-6 mx-auto'>
+							<div className='col-lg-6 imagecus'>
 								<img
-									src='assets/images/robot.jpg'
-									className='rounded mx-auto d-block custom-image'
-									height={500}
-									width={400}
+									src='assets/images/banner_img2.png'
 									alt=''
 								/>
 							</div>
@@ -62,7 +59,7 @@ const Banner = ({ transferNativeToken }) => {
 					</div>
 				</div>
 			</section>
-			<p className='ppp'></p>
+
 		</div>
 	);
 };
