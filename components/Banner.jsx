@@ -8,32 +8,11 @@ const Banner = ({ transferNativeToken }) => {
 	return (
 		<section className='hero-section'>
 			<div className='hero-content'>
-				<h1
-					className='animation HemToken'
-					data-animation='fadeInUp'
-					data-animation-delay='1.1s'>
-					<strong>HemToken</strong> is a peer to peer innovative Network
-				</h1>
-				<p
-					className='animation presale-txt text-white ani'
-					data-animation='fadeInUp'
-					data-animation-delay='1.1s'>
-					HemToken Presale is <strong>Live</strong>
-				</p>
-				<div
-					className='btn_group pt-2 pb-3 animation'
-					data-animation='fadeInUp'
-					data-animation-delay='1.3s'>
-					<a
-						href='#whitepaper'
-						className='btn-custom-blue1'>
-						Whitepaper
-					</a>
-					<a
-						href='#whitepaper'
-						className='btn-custom-blue2'>
-						Transfer Token
-					</a>
+				<h1>HemToken is a peer-to-peer innovative Network</h1>
+				<p>HemToken Presale is Live</p>
+				<div className='hero-buttons'>
+					<button className='btn-primary'>Join Presale</button>
+					<button className='btn-secondary'>Learn More</button>
 				</div>
 			</div>
 			<div className='hero-image'>
