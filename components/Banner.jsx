@@ -20,9 +20,20 @@ const Banner = ({ transferNativeToken }) => {
 					data-animation-delay='1.1s'>
 					HemToken Presale is <strong>Live</strong>
 				</p>
-				<div className='hero-buttons'>
-					<button className='btn-primary'>Join Presale</button>
-					<button className='btn-secondary'>Learn More</button>
+				<div
+					className='btn_group pt-2 pb-3 animation'
+					data-animation='fadeInUp'
+					data-animation-delay='1.3s'>
+					<a
+						href='#whitepaper'
+						className='btn-custom-blue1'>
+						Whitepaper
+					</a>
+					<a
+						href='#whitepaper'
+						className='btn-custom-blue2'>
+						Transfer Token
+					</a>
 				</div>
 			</div>
 			<div className='hero-image'>
