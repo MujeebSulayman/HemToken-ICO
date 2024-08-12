@@ -43,7 +43,7 @@
     max-width: 100%; /* Ensures the image is responsive */
     height: 400px; /* Maintains the aspect ratio */
     border-radius: 8px; /* Adjust this value to change the roundness of the image corners */
-    box-shadow: 6px 5px 8px rgba(255, 255, 255, 0.084); /* Adds a subtle shadow */
+    box-shadow: 0px 2px 0px 2px #AC6AFF; /* Adds a subtle shadow */
 }
 
 
