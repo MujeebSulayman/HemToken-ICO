@@ -52,9 +52,9 @@ const Banner = ({ transferNativeToken }) => {
 							<div className='col-lg-6 imagecus'>
 								<img
 									src='assets/images/robot.jpg'
-                  className='robot'
-                  height={500}
-                  width={400}
+									className='rounded mx-auto d-block custom-image'
+									height={500}
+									width={400}
 									alt=''
 								/>
 							</div>
