@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
 			<script src='assets/js/jquery.counterup.min.js'></script>
 			<script src='assets/js/jquery.dd.min.js'></script>
 			<script src='assets/js/magnific-popup.min.js'></script>
-			{/* <script src='assets/js/notification.js'></script> */}
+			<script src='assets/js/notification.js'></script>
 			<script src='assets/js/parallax.js'></script>
 			<script src='assets/particles.min.js'></script>
 			<script src='assets/js/scripts.js'></script>
