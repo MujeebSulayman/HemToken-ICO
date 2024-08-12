@@ -21,7 +21,7 @@ const Banner = ({ transferNativeToken }) => {
 					HemToken Presale is <strong>Live</strong>
 				</p>
 				<div
-					className='btn_group pt-2 pb-3 animation'
+					className='btn_group pt-2 pb-3 animation butgrp'
 					data-animation='fadeInUp'
 					data-animation-delay='1.3s'>
 					<a
