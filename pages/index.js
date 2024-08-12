@@ -52,7 +52,7 @@ const index = () => {
 			<Team />
 			<Faq />
 			<Contact />
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 };
