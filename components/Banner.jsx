@@ -39,9 +39,9 @@ const Banner = ({ transferNativeToken }) => {
 			<div className='hero-image'>
 				<img
 					src='assets/images/service-1.png'
-					height={400}
+					height={500}
 					className='custom-image'
-					width={400}
+					width={500}
 					alt='HemToken'
 				/>
 			</div>
