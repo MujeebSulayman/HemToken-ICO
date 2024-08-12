@@ -50,7 +50,8 @@ const Banner = ({ transferNativeToken }) => {
 							</div>
 							<div className='col-lg-6 imagecus'>
 								<img
-									src='assets/images/banner_img2.png'
+									src='assets/images/service-1.png'
+									className='custom-image'
 									alt=''
 								/>
 							</div>
