@@ -6,17 +6,16 @@ import { AIOutlineCloudDownload } from 'react-icons/ai';
 
 const Banner = ({ transferNativeToken }) => {
 	return (
-		<div className='padding-up'>
+		<div className=''>
 			<section
-				id='home_section '
-				className='section_banner bg_black_dark'
-				data-z-index='1'
-				data-parallax='scroll'
-				data-image-src='assets/images/banner_bg2.png'>
+				id='home_section'
+				className=''
+				data-zindex='1'
+				data-parallax='scroll'>
 				<div className='banner_effect'>
 					<div className='container'>
 						<div className='row align-items-center'>
-							<div className='col-lg-6 col-md-12 col-sm-12 order-lg-first'>
+							<div className='col-lg-6 col-md-12 col-sm-12 order-lg-first flxing'>
 								<div className='banner_text_s2 text_md_center'>
 									<h1
 										className='animation HemToken'
@@ -39,27 +38,31 @@ const Banner = ({ transferNativeToken }) => {
 										data-animation-delay='1.3s'>
 										<a
 											href='#whitepaper'
-											className='btn-custom-blue1'
-											id='whitepaper'>
+											className='btn-custom-blue1'>
 											Whitepaper
 										</a>
 										<a
 											href='#whitepaper'
-											className='btn-custom-blue2'
-											id='whitepaper'>
+											className='btn-custom-blue2'>
 											Transfer Token
 										</a>
 									</div>
 								</div>
 							</div>
-
-                <div className='col-lg-6'>
-                  <img src="assets/images/banner_img2.png" alt="" />
-                </div>
+							<div className='col-lg-6 imagecus'>
+								<img
+									src='assets/images/robot.jpg'
+                  className='robot'
+                  height={500}
+                  width={400}
+									alt=''
+								/>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
+			<p className='ppp'></p>
 		</div>
 	);
 };

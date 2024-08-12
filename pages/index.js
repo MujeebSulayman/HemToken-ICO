@@ -35,23 +35,25 @@ const index = () => {
 	} = useStateContext();
 
 	return (
-		<div className='v_dark'>
+		<div className='v_dark indexingind'>
 			<Header
 				address={address}
 				setAddress={setAddress}
 				connectWallet={connectWallet}
 			/>
 			<Banner transferNativeToken={transferNativeToken} />
-			<TokenSale
-				buyToken={buyToken}
-				tokenSale={tokenSale}
-			/>
-			<Distribution />
-			<MobileApp />
-			<Team />
-			<Faq />
-			<Contact />
-			<Footer />
+			<div className='topped'>
+				<TokenSale
+					buyToken={buyToken}
+					tokenSale={tokenSale}
+				/>
+				<Distribution />
+				<MobileApp />
+				<Team />
+				<Faq />
+				<Contact />
+				<Footer />
+			</div>
 		</div>
 	);
 };
