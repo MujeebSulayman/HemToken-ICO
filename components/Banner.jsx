@@ -9,6 +9,7 @@ const Banner = ({ transferNativeToken }) => {
 		
 			<section
 				id='home_section'
+        className='pad-top'
 				data-z-index='1'
 				data-parallax='scroll'>
 				<div className='banner_effect'>
