@@ -155,7 +155,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 50px;
+	padding: 30px;
 	flex-wrap: wrap; /* Allows the content to wrap on smaller screens */
 }
 
@@ -232,7 +232,7 @@
 	}
 
 	.hero-image {
-		max-width: 100%;
+		max-width: 130%;
 		height: 100%;
     padding-top: 20px;
 	}
