@@ -43,7 +43,7 @@ const index = () => {
 			/>
 			<Banner transferNativeToken={transferNativeToken} />
 
-			{/* <TokenSale
+			<TokenSale
 				buyToken={buyToken}
 				tokenSale={tokenSale}
 			/>
@@ -51,7 +51,7 @@ const index = () => {
 			<MobileApp />
 			<Team />
 			<Faq />
-			<Contact /> */}
+			<Contact />
 			<Footer />
 		</div>
 	);
