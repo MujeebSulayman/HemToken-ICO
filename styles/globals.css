@@ -64,9 +64,10 @@
 }
 
 .HemToken {
-	font-size: 50px;
+	font-size: 60px;
 	color: rgb(255, 255, 255);
 }
+
 
 
 
@@ -140,12 +141,6 @@
 }
 
 
-@media (max-width: 767px) {
-    .custom-image {
-        padding-top: 20px; /* Adjust the value as needed */
-        padding-bottom: 20px; /* Adjust the value as needed */
-    }
-}
 
 .hero-section {
   display: flex;
@@ -226,4 +221,12 @@
   .btn-primary, .btn-secondary {
     width: 100%; /* Full width buttons on mobile */
   }
+
+   .custom-image {
+        padding-top: 20px; /* Adjust the value as needed */
+        padding-bottom: 20px; /* Adjust the value as needed */
+    }
+     .HemToken {
+        font-size: 50px;
+    }
 }
