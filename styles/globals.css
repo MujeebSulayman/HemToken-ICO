@@ -116,6 +116,7 @@
 	border-radius: 2px;
 	background-color: #ac6aff;
 	font-size: 14px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,sans-serif;
 	font-weight: bold;
 	justify-content: center;
 	justify-items: center;
@@ -123,8 +124,9 @@
 }
 
 .navtest {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,sans-serif;
 	color: #fff;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .navtest:hover {
