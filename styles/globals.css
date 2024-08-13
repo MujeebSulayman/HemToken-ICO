@@ -195,7 +195,7 @@
 }
 
 .small_pb h4{
-	font-size: 30px;
+	font-size: 35px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }
@@ -205,6 +205,11 @@
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }
+
+.boxes{
+	background-color: #fff;
+}
+
 
 
 

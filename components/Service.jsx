@@ -10,7 +10,7 @@ const Service = () => {
 		{
 			title: 'Mobile App',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis quasi eum aut est atque, consequatur error quisquam beatae aliquam, mollitia veritatis./',
+				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis quasi eum aut est atque, consequatur error quisquam beatae aliquam, mollitia veritatis.',
 		},
 		{
 			title: 'Planning',
@@ -25,7 +25,7 @@ const Service = () => {
 		{
 			title: 'Investment Project',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis quasi eum aut est atque, consequatur error quisquam beatae aliquam, mollitia veritatis.' ,
+				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis quasi eum aut est atque, consequatur error quisquam beatae aliquam, mollitia veritatis.',
 		},
 		{
 			title: 'Investment Project',
@@ -67,8 +67,10 @@ const Service = () => {
 								className='box_wrap text-center animation'
 								data-animation='fadeInUp'
 								data-animation-delay={`0.${i + 1}s`}>
-								<h4>{service.title}</h4>
-								<p>{service.description}</p>
+								<div className='stylehf'>
+									<h4>{service.title}</h4>
+									<p>{service.description}</p>
+								</div>
 							</div>
 						</div>
 					))}
