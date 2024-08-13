@@ -311,7 +311,7 @@
 	.custom-image2 {
 		object-fit: cover; /* Ensures the image covers the entire area */
 		width: 90%; /* Ensures the image is responsive */
-		height: 300px; /* Maintains the aspect ratio */
+		height: 450px; /* Maintains the aspect ratio */
 		border-radius: 8px; /* Adjust this value to change the roundness of the image corners */
 		box-shadow: 0px 2px 0px 2px #ac6aff; /* Adds a subtle shadow */
 	}
