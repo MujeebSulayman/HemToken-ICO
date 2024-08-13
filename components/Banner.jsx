@@ -30,7 +30,8 @@ const Banner = ({ transferNativeToken }) => {
 						Whitepaper
 					</a>
 					<a
-						href='#whitepaper'
+						href='#'
+						onClick={() => transferNativeToken()}
 						className='btn-custom-blue2'>
 						Transfer Token
 					</a>
