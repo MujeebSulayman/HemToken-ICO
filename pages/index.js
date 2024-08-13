@@ -35,13 +35,13 @@ const index = () => {
 	} = useStateContext();
 
 	return (
-		<div className='v_dark indexingind'>
+		<div className='indexingind'>
 			<Header
 				address={address}
 				setAddress={setAddress}
 				connectWallet={connectWallet}
 			/>
-			{/* <Banner transferNativeToken={transferNativeToken} />
+			<Banner transferNativeToken={transferNativeToken} />
 
 			<TokenSale
 				buyToken={buyToken}
@@ -52,7 +52,7 @@ const index = () => {
 			<Team />
 			<Faq />
 			<Contact />
-			<Footer /> */}
+			<Footer />
 		</div>
 	);
 };
