@@ -226,10 +226,7 @@
     width: 100%; /* Full width buttons on mobile */
   }
 
-   .custom-image {
-        padding-top: 40px; /* Adjust the value as needed */
-        padding-bottom: 20px; /* Adjust the value as needed */
-    }
+ 
      .HemToken {
         font-size: 50px;
     }
