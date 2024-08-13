@@ -36,14 +36,14 @@ const index = () => {
 
 	return (
 		<div className='v_dark indexingind'>
-			{/* <Header
+			<Header
 				address={address}
 				setAddress={setAddress}
 				connectWallet={connectWallet}
 			/>
-			<Banner transferNativeToken={transferNativeToken} /> */}
+			<Banner transferNativeToken={transferNativeToken} />
 
-			<TokenSale
+			{/* <TokenSale
 				buyToken={buyToken}
 				tokenSale={tokenSale}
 			/>
@@ -51,8 +51,8 @@ const index = () => {
 			<MobileApp />
 			<Team />
 			<Faq />
-			<Contact />
-			{/* <Footer /> */}
+			<Contact /> */}
+			<Footer />
 		</div>
 	);
 };
