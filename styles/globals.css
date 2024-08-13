@@ -200,7 +200,7 @@
 
 .hero-image img {
 	max-width: 100%;
-	height: auto;
+	
 	border-radius: 10px;
 }
 
@@ -215,10 +215,6 @@
 	.hero-content {
 		max-width: 100%;
 		margin-bottom: 20px;
-	}
-
-	.hero-image {
-		max-width: 100%;
 	}
 
 	.hero-buttons {
@@ -238,7 +234,6 @@
 	.hero-image {
 		max-width: 100%;
 		height: 100%;
-		object-fit: cover;
-		padding-top: 20px;
+    padding-top: 20px;
 	}
 }
