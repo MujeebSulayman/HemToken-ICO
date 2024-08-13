@@ -192,6 +192,7 @@
 
 .hero-image {
   max-width: 50%;
+  object-fit: fill;
 }
 
 .hero-image img {
