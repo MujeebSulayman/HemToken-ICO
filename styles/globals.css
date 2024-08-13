@@ -39,9 +39,7 @@
 
 
 .custom-image {
-    /* object-fit: cover; Ensures the image covers the entire area */
-    object-fit: cover;
-    width: 80%;
+    object-fit: cover; /* Ensures the image covers the entire area */
     max-width: 100%; /* Ensures the image is responsive */
     height: 400px; /* Maintains the aspect ratio */
     border-radius: 8px; /* Adjust this value to change the roundness of the image corners */
@@ -194,7 +192,6 @@
 
 .hero-image {
   max-width: 50%;
-  object-fit: cover;
 }
 
 .hero-image img {
@@ -230,7 +227,7 @@
   }
 
    .custom-image {
-        padding-top: 20px; /* Adjust the value as needed */
+        padding-top: 40px; /* Adjust the value as needed */
         padding-bottom: 20px; /* Adjust the value as needed */
     }
      .HemToken {
