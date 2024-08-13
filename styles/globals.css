@@ -253,6 +253,13 @@
 	border-radius: 10px;
 }
 
+.services-tent h4 {
+	font-size: 30px;
+}
+.services-tent p {
+	font-size: 17px;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
 	.hero-section {
@@ -311,5 +318,12 @@
 
 	.aboutContainer {
 		padding-top: 0px;
+	}
+
+	.services-tent h4 {
+		font-size: 24px;
+	}
+	.services-tent p {
+		font-size: 14px;
 	}
 }

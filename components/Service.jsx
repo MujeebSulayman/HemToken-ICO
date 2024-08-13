@@ -40,7 +40,7 @@ const Service = () => {
 			<div className='container'>
 				<div className='row align-items-center'>
 					<div className='col-lg-8 offset-lg-2 col-md-12 col-sm-12'>
-						<div className='title_default_light title_border text-center'>
+						<div className='title_default_light title_border text-center '>
 							<h4
 								className='animation'
 								data-animation='fadeInUp'
@@ -58,7 +58,7 @@ const Service = () => {
 					</div>
 				</div>
 
-				<div className='row'>
+				<div className='row services-tent'>
 					{services.map((service, i) => (
 						<div
 							key={i + 1}
@@ -67,10 +67,8 @@ const Service = () => {
 								className='box_wrap text-center animation'
 								data-animation='fadeInUp'
 								data-animation-delay={`0.${i + 1}s`}>
-								<div className='stylehf'>
-									<h4>{service.title}</h4>
-									<p>{service.description}</p>
-								</div>
+								<h4>{service.title}</h4>
+								<p>{service.description}</p>
 							</div>
 						</div>
 					))}
