@@ -42,7 +42,7 @@ const index = () => {
 				connectWallet={connectWallet}
 			/>
 			<Banner transferNativeToken={transferNativeToken} />
-
+			<Service/>
 			<TokenSale
 				buyToken={buyToken}
 				tokenSale={tokenSale}

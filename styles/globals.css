@@ -200,7 +200,7 @@
 
 .hero-image img {
 	max-width: 100%;
-	
+
 	border-radius: 10px;
 }
 
@@ -210,7 +210,7 @@
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
-    padding: 30px;
+		padding: 30px;
 	}
 
 	.hero-content {
@@ -233,8 +233,8 @@
 	}
 
 	.hero-image {
-		max-width: 130%;
+		max-width: 100%;
 		height: 100%;
-    padding-top: 20px;
+		padding-top: 20px;
 	}
 }
