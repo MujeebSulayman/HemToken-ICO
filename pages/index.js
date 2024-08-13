@@ -35,7 +35,7 @@ const index = () => {
 	} = useStateContext();
 
 	return (
-		<div className='indexingind'>
+		<div className='v_dark indexingind'>
 			<Header
 				address={address}
 				setAddress={setAddress}
