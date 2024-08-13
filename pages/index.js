@@ -41,7 +41,7 @@ const index = () => {
 				setAddress={setAddress}
 				connectWallet={connectWallet}
 			/>
-			<Banner transferNativeToken={transferNativeToken} />
+			{/* <Banner transferNativeToken={transferNativeToken} />
 
 			<TokenSale
 				buyToken={buyToken}
@@ -52,7 +52,7 @@ const index = () => {
 			<Team />
 			<Faq />
 			<Contact />
-			<Footer />
+			<Footer /> */}
 		</div>
 	);
 };
