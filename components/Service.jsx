@@ -52,7 +52,7 @@ const Service = () => {
 								data-animation='fadeInUp'
 								data-animation-delay='0.2s'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-								hic suscipit incidunt, nobis sapiente debitis officiis.
+								hic suscipit incidunt nobis.
 							</p>
 						</div>
 					</div>
