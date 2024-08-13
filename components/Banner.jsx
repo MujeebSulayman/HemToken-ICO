@@ -43,7 +43,7 @@ const Banner = ({ transferNativeToken }) => {
 					className='custom-image animation'
 					data-animation='fadeInUp'
 					data-animation-delay='1.1s'
-					width={500}
+					width={600}
 					alt='HemToken'
 				/>
 			</div>
