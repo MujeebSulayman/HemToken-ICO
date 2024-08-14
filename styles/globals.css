@@ -41,19 +41,19 @@
 	padding-top: 70px;
 }
 .custom-image {
-	object-fit: contain; /* Ensures the image covers the entire area */
-	max-width: 100%; /* Ensures the image is responsive */
-	height: 400px; /* Maintains the aspect ratio */
-	border-radius: 8px; /* Adjust this value to change the roundness of the image corners */
-	box-shadow: 0px 2px 0px 2px #ac6aff; /* Adds a subtle shadow */
+	object-fit: contain;
+	max-width: 100%;
+	height: 400px;
+	border-radius: 8px;
+	box-shadow: 0px 2px 0px 2px #ac6aff;
 }
 
 .custom-image2 {
-	object-fit: cover; /* Ensures the image covers the entire area */
-	width: 90%; /* Ensures the image is responsive */
-	height: 500px; /* Maintains the aspect ratio */
-	border-radius: 8px; /* Adjust this value to change the roundness of the image corners */
-	box-shadow: 0px 2px 0px 2px #ac6aff; /* Adds a subtle shadow */
+	object-fit: cover;
+	width: 90%;
+	height: 500px;
+	border-radius: 8px;
+	box-shadow: 0px 2px 0px 2px #ac6aff;
 }
 
 .pad-top {
