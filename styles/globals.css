@@ -96,48 +96,45 @@
 		'Lucida Sans', Arial, sans-serif;
 }
 
-
-.pro{
+.pro {
 	font-size: 15px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }
 
-.mtk{
+.mtk {
 	font-size: 15px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }
 
-.mtkSale{
+.mtkSale {
 	font-size: 17px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }
 
-.token h4{
+.token h4 {
 	font-size: 30px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }
-.token h6{
+.token h6 {
 	font-size: 21px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }
 
-
- .token .tokp{
+.token .tokp {
 	font-size: 15px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }
 
-.progbar{
+.progbar {
 	background-color: red;
 	color: #55b021;
 }
-
 
 .btn-custom-blue3 {
 	padding: 15px 20px;
@@ -160,7 +157,6 @@
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }
-
 
 .btn-custom-blue2 {
 	padding: 15px 20px;
