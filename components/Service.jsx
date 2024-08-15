@@ -3,34 +3,34 @@ import React from 'react';
 const Service = () => {
 	const services = [
 		{
-			title: 'Secure Storage',
+			title: 'Strong Growth Potential',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis quasi eum aut est atque, consequatur error quisquam beatae aliquam, mollitia veritatis.',
+				'The MTK token is strategically positioned within a rapidly growing market, offering investors the potential for significant appreciation in value. By investing early, you can capitalize on the growth opportunities.',
 		},
 		{
-			title: 'Mobile App',
+			title: 'Early Access and Discounts',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis quasi eum aut est atque, consequatur error quisquam beatae aliquam, mollitia veritatis.',
+				'Participating in the MTK ICO presale grants you early access to tokens at a special rate. This early-bird opportunity allows you to secure your position before the token is listed on major exchanges, where prices may be higher due to market demand.',
 		},
 		{
-			title: 'Planning',
+			title: 'Versatile Utility within the Ecosystem',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis quasi eum aut est atque, consequatur error quisquam beatae aliquam, mollitia veritatis.',
+				'MTK tokens are not just an investment; they are the backbone of our ecosystem. Whether you’re looking to pay for transaction fees or participate in governance decisions, MTK serves as the key to unlocking these features.',
 		},
 		{
-			title: 'Exchange Service',
+			title: 'Staking Rewards for Passive Income',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis quasi eum aut est atque, consequatur error quisquam beatae aliquam, mollitia veritatis.',
+				'By staking your MTK tokens within our ecosystem, you can earn attractive rewards. Staking provides a way to earn passive income while contributing to the security and stability of our network. The more tokens you stake, the greater your potential rewards.',
 		},
 		{
-			title: 'Investment Project',
+			title: 'Exclusive Access to Premium Features',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis quasi eum aut est atque, consequatur error quisquam beatae aliquam, mollitia veritatis.',
+				'Holding MTK tokens gives you access to a range of exclusive benefits, including premium features, products, and services that are only available to token holders. This includes early access to new platform developments, special events.',
 		},
 		{
-			title: 'Investment Project',
+			title: 'Community-Driven Governance',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis quasi eum aut est atque, consequatur error quisquam beatae aliquam, mollitia veritatis.',
+				'MTK token holders are not just passive investors; they are active participants in shaping the future of the project. Through a decentralized governance model, holders can propose and vote on key decisions, ensuring that the community’s voice is heard.',
 		},
 	];
 	return (
@@ -45,7 +45,7 @@ const Service = () => {
 								className='animation'
 								data-animation='fadeInUp'
 								data-animation-delay='0.2s'>
-								BrainWave benefits
+								Benefits of MTK Token
 							</h4>
 							<p
 								className='animation'

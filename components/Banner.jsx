@@ -12,7 +12,7 @@ const Banner = ({ transferNativeToken }) => {
 					className='animation HemToken'
 					data-animation='fadeInUp'
 					data-animation-delay='1.1s'>
-					Sell and exchange blockchain tokens.
+					Welcome to the Future of Web3 with MTK Token.
 				</h1>
 				<h5
 					className='animation presale-txt text-white ani'
@@ -33,7 +33,7 @@ const Banner = ({ transferNativeToken }) => {
 						href='#'
 						onClick={() => transferNativeToken()}
 						className='btn-custom-blue2'>
-						Transfer Token
+						Buy Token
 					</a>
 				</div>
 			</div>

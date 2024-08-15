@@ -320,10 +320,10 @@
 }
 
 .services-tent h4 {
-	font-size: 30px;
+	font-size: 26px;
 }
 .services-tent p {
-	font-size: 17px;
+	font-size: 16px;
 }
 
 /* Media query for mobile devices */
@@ -387,7 +387,7 @@
 	}
 
 	.services-tent h4 {
-		font-size: 24px;
+		font-size: 22px;
 	}
 	.services-tent p {
 		font-size: 16px;
