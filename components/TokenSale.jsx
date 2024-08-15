@@ -109,7 +109,6 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 										</div>
 									</div>
 								</div>
-
 								<div className='tk_counter_inner'>
 									<div
 										className='progress animation'
