@@ -26,9 +26,8 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 								className='animation mtkSale'
 								data-animation='fadeInUp'
 								data-animtion-delay='0.2s'>
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-								quos perferendis voluptate unde voluptatem autem mollitia fugiat
-								quisquam.
+								Don't miss your chance to be an early adopter of MTK! Secure
+								your tokens during our ICO presale at a special discounted rate.
 							</p>
 						</div>
 					</div>
