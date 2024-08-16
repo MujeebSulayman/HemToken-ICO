@@ -322,6 +322,8 @@
 	font-size: 16px;
 }
 
+
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
 	.hero-section {
