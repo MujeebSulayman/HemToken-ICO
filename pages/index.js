@@ -7,11 +7,8 @@ import {
 	Blog,
 	Client,
 	Contact,
-	Distribution,
-	Faq,
 	Footer,
 	MobileApp,
-	Team,
 	TokenSale,
 	TimeLine,
 	Service,
@@ -42,16 +39,13 @@ const index = () => {
 				connectWallet={connectWallet}
 			/>
 			<Banner transferNativeToken={transferNativeToken} />
-			<Service/>
-			<About/>
+			<Service />
+			<About />
 			<TokenSale
 				buyToken={buyToken}
 				tokenSale={tokenSale}
 			/>
-			<Distribution />
 			<MobileApp />
-			<Team />
-			<Faq />
 			<Contact />
 			<Footer />
 		</div>

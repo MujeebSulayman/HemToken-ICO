@@ -20,14 +20,6 @@ const Header = ({ address, setAddress, connectWallet }) => {
 			link: '#token',
 		},
 		{
-			menu: 'Team',
-			link: '#team',
-		},
-		{
-			menu: 'FAQ',
-			link: '#faq',
-		},
-		{
 			menu: 'Contact',
 			link: '#contact',
 		},

@@ -5,7 +5,7 @@ const Service = () => {
 		{
 			title: 'Strong Growth Potential',
 			description:
-				'The MTK token is strategically positioned within a rapidly growing market, offering investors the potential for significant appreciation in value. By investing early, you can capitalize on the growth opportunities.',
+				'The MTK token is strategically positioned within a rapidly growing market, offering investors the potential for significant appreciation in value. By being early-bird investor, you can capitalize on the growth opportunities.',
 		},
 		{
 			title: 'Early Access and Discounts',

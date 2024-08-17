@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import { FaEthereum } from 'react-icons/fa';
+
 const TokenSale = ({ buyToken, tokenSale }) => {
 	const [nToken, setnToken] = useState(1);
 	const persentage = (tokenSale?.tokenSold / tokenSale?.tokenSaleBalance) * 100;
@@ -23,7 +25,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 								MTK Token Sale
 							</h4>
 							<p
-								className='animation mtkSale'
+								className='mtkSale animation'
 								data-animation='fadeInUp'
 								data-animtion-delay='0.2s'>
 								Don't miss your chance to be an early adopter of MTK! Secure
@@ -142,10 +144,60 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 										className='btn-custom-blue3 animation'
 										data-animtion='fadeInUp'
 										data-animation-delay='0.1s'>
+										<FaEthereum className='new_font_size' />
 										Buy Token
 									</a>
 								</div>
 							</div>
+						</div>
+					</div>
+
+					<div className='col-lg-3'>
+						<div className='pr_box'>
+							<h6
+								className='animation'
+								data-animation='fadeInUp'
+								data-animtion-delay='0.2s'>
+								Low - High 24 hrs
+							</h6>
+
+							<p
+								className='animation tokp'
+								data-animation='fadeInUp'
+								data-animtion-delay='0.2s'>
+								$2437
+							</p>
+						</div>
+						<div className='pr_box'>
+							<h6
+								className='animation'
+								data-animation='fadeInUp'
+								data-animtion-delay='0.2s'>
+								Total Token Sold
+							</h6>
+
+							<p
+								className='animation tokp'
+								data-animation='fadeInUp'
+								data-animtion-delay='0.2s'>
+								{tokenSale?.tokenSold} MTK {showPercentage.slice(0, 4)}%
+							</p>
+						</div>
+
+						<div className='pr_box'>
+							<h6
+								className='animation'
+								data-animation='fadeInUp'
+								data-animtion-delay='0.2s'>
+								Acceptable Currency
+							</h6>
+
+							<p
+								className='animation tokp'
+								data-animation='fadeInUp'
+								data-animtion-delay='0.2s'>
+								ETHEREUM
+							</p>
 						</div>
 					</div>
 				</div>

@@ -1,8 +1,4 @@
-import React from 'react';
-import { BsCurrencyBitcoin, BsArrowRight } from 'react-icons/bs';
-
 import { FaEthereum } from 'react-icons/fa';
-import { AIOutlineCloudDownload } from 'react-icons/ai';
 
 const Banner = ({ transferNativeToken }) => {
 	return (
@@ -33,6 +29,7 @@ const Banner = ({ transferNativeToken }) => {
 						href='#'
 						onClick={() => transferNativeToken()}
 						className='btn-custom-blue2'>
+						<FaEthereum className='new_font_size' />
 						Buy Token
 					</a>
 				</div>

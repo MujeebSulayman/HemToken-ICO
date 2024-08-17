@@ -17,7 +17,8 @@
 
 .new_font_size {
 	font-size: 1.4rem;
-	margin-right: 0.5rem;
+	margin-right: 0.2rem;
+	margin-bottom: -5px;
 }
 
 .icon_color {
@@ -40,6 +41,17 @@
 .aboutContainer {
 	padding-top: 70px;
 }
+
+.conh4 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+
+.conp {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+
 .custom-image {
 	object-fit: contain;
 	max-width: 100%;
@@ -86,6 +98,12 @@
 .indexingind {
 	padding-top: 7rem;
 	padding-bottom: 2rem;
+}
+
+.foot h5{
+	font-size: 24px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
 }
 
 .ani {
@@ -321,8 +339,6 @@
 .services-tent p {
 	font-size: 16px;
 }
-
-
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
