@@ -5,7 +5,7 @@ const Contact = () => {
 	return (
 		<section
 			id='contact'
-			className='contact_section small_pt'>
+			className='contact_section small_pt fotter'>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-lg-8 col-md-12 offset-lg-2'>
@@ -105,7 +105,7 @@ const Contact = () => {
 											<FaFacebookF className='icon_color' />
 										</a>
 									</li>
-									
+
 									<li
 										className='animation'
 										data-animation='fadeInUp'
@@ -128,6 +128,71 @@ const Contact = () => {
 									</li>
 								</ul>
 							</div>
+						</div>
+					</div>
+
+					<div className='col-lg-5 col-md-6'>
+						<div
+							className='pt-4 pt-md-0 animation'
+							data-animation='fadeInUp'
+							data-animation-delay='0.2s'>
+							<form
+								action='#'
+								method='post'
+								className='field_form'
+								name='form'>
+								<div
+									className='form-group col-md-12 animation'
+									data-animation='fadeInUp'
+									data-animation-delay='0.3s'>
+									<input
+										type='text'
+										required
+										placeholder='Enter Name'
+										className='form-control'
+										name='name'
+									/>
+								</div>
+								<div
+									className='form-group col-md-12 animation'
+									data-animation='fadeInUp'
+									data-animation-delay='0.3s'>
+									<input
+										type='email'
+										required
+										placeholder='Enter Email'
+										className='form-control'
+										name='email'
+									/>
+								</div>
+								<div
+									className='form-group col-md-12 animation'
+									data-animation='fadeInUp'
+									data-animation-delay='0.3s'>
+									<input
+										type='text'
+										required
+										id='subject'
+										placeholder='Enter Subject'
+										className='form-control'
+										name='subject'
+									/>
+								</div>
+								<div
+									className='form-group col-md-12 animation'
+									data-animation='fadeInUp'
+									data-animation-delay='0.3s'>
+									<textarea
+										type='text'
+										required
+										id='description'
+										placeholder='Message'
+										className='form-control'
+										name='description'
+                    role='2'
+									/>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>

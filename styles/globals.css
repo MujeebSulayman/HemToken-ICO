@@ -114,6 +114,13 @@
 	color: rgb(255, 255, 255);
 }
 
+.fotter h4{
+	font-size: 30px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+
+
 .foot h5 {
 	font-size: 24px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
