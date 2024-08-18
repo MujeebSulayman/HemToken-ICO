@@ -233,6 +233,54 @@
 	background-color: #ffffff;
 }
 
+.footbut{
+	padding-bottom: 50px;
+}
+
+.btn-custom-blue-sub {
+	padding: 10px 50px;
+	margin-left: 15px;
+	color: white;
+	border-radius: 7px;
+	background-color: #ac6aff;
+	font-size: 15px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	justify-content: center;
+	justify-items: center;
+	cursor: pointer;
+}
+
+.btn-custom-blue-sub:hover{
+
+	background-color: #ffffff;
+	color: #ac6aff;
+}
+
+
+.btn-custom-blue-scrib {
+	padding: 10px 30px;
+	margin-top: 15px;
+	color: #ac6aff;
+	border-radius: 7px;
+	background-color: #ffffff;
+	font-size: 15px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	justify-content: center;
+	justify-items: center;
+	cursor: pointer;
+}
+
+.btn-custom-blue-scrib:hover{
+
+	background-color: #ac6aff;
+	color: #ffffff;
+}
+
+
 .btn-custom-blue {
 	padding: 10px 20px;
 	color: white;
@@ -397,8 +445,8 @@
 /* Media query for mobile devices */
 @media (max-width: 768px) {
 	.navtest {
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 40px;
+		padding-bottom: 30px;
 	}
 
 	.hero-section {

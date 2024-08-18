@@ -82,16 +82,16 @@ const Footer = () => {
 									placeholder='Email Address'
 									className='input-rounded'
 								/>
-								<button
-									type='submit'
-									title='Subscribe'
-									className='btn-info'
-									name='submit'
-									value='Submit'>
-									Subscribe
-								</button>
 							</form>
 						</div>
+						<button
+							type='submit'
+							title='Subscribe'
+							className='btn-custom-blue-scrib '
+							name='submit'
+							value='Submit'>
+							Subscribe
+						</button>
 					</div>
 				</div>
 			</div>

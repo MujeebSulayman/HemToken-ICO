@@ -21,7 +21,7 @@ const Contact = () => {
 				</div>
 
 				<div className='row align-items-center small_space'>
-					<div className='col-lg-4 col-md-6 offset-lg-2'>
+					<div className='col-lg-6 col-md-6 '>
 						<div
 							className='bg_light_dark contact_box_s2 animation foot'
 							data-animation='fadeInUp'
@@ -43,20 +43,7 @@ const Contact = () => {
 							</div>
 
 							<ul className='list_none contact_info mt-margin'>
-								<li
-									className='animation'
-									data-animation='fadeInUp'
-									data-anomation-delay='0.2s'>
-									<div className='contact_detail'>
-										<span className='conh4'>Address</span>
-										<p
-											className='animation conp'
-											data-animation='fadeInUp'
-											data-anomation-delay='0.2s'>
-											Lagos Nigeria
-										</p>
-									</div>
-								</li>
+								
 								<li
 									className='animation'
 									data-animation='fadeInUp'
@@ -131,7 +118,10 @@ const Contact = () => {
 						</div>
 					</div>
 
-					<div className='col-lg-5 col-md-6'>
+
+
+
+					<div className='col-lg-6 col-md-6'>
 						<div
 							className='pt-4 pt-md-0 animation'
 							data-animation='fadeInUp'
@@ -189,10 +179,17 @@ const Contact = () => {
 										placeholder='Message'
 										className='form-control'
 										name='description'
-                    role='2'
+										role='2'
 									/>
 								</div>
-                <button className='btn-custom-blue2'>Submit</button>
+								<button
+									className='btn-custom-blue-sub'
+									type='submit'
+									id='submitButton'
+									name='submit'
+									value={'submit'}>
+									Submit
+								</button>
 							</form>
 						</div>
 					</div>
