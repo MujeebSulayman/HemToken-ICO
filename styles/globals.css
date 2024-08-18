@@ -191,6 +191,12 @@
 		'Lucida Sans', Arial, sans-serif;
 }
 
+
+.colored{
+	color: #ffffff;
+	background: #ac6aff;
+}
+
 .btn-custom-blue3:hover {
 	padding: 15px 20px;
 	background-color: #ffffff;
@@ -233,9 +239,9 @@
 }
 
 .btn-custom-blue {
-	padding: 9px 15px;
+	padding: 16px 20px;
 	color: white;
-	border-radius: 2px;
+	border-radius: 3px;
 	background-color: #ac6aff;
 	font-size: 14px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -245,6 +251,38 @@
 	justify-items: center;
 	cursor: pointer;
 }
+
+
+.btn-custom-blue:hover {
+	color: #ac6aff;
+	background-color: #ffffff;
+}
+
+
+.btn-custom-blue_nav {
+	padding: 8px 13px;
+	color: white;
+	border-radius: 3px;
+	background-color: #ac6aff;
+	font-size: 14px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	justify-content: center;
+	justify-items: center;
+	cursor: pointer;
+}
+
+
+.btn-custom-blue_nav:hover {
+	color: #ac6aff;
+	background-color: #ffffff;
+}
+
+.icon_menu{
+	font-size: 20px;
+}
+
 
 .navtest {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -257,9 +295,7 @@
 	color: #ac6aff;
 }
 
-.btn-custom-blue:hover {
-	color: rgb(0, 0, 0);
-}
+
 
 .btn-connect {
 	background-color: rgb(0, 0, 0);

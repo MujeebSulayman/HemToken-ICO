@@ -116,7 +116,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 										data-animation='fadeInUp'
 										data-animtion-delay='1.3s'>
 										<div
-											className='progress-bar progress-bar-striped gradient'
+											className='progress-bar progress-bar-striped colored'
 											role='progressbar'
 											aria-valuenow={`${persentage}`}
 											aria-valuemin={`${'0'}`}
