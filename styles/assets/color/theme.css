@@ -136,14 +136,14 @@ header a:hover,
     background-image: linear-gradient(to right, #ffcc67 0%, #ff67cb 99%);
 }
 
-button,
+/* button,
 .team_img.gradient_box::before,
 .team_pop .progress-bar,
 .tk_counter_inner .progress-bar.gradient,
 .faq_content4 .card-header a::after {
     background-image: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%);
     background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
-}
+} */
 
 .gradient_box {
     background-image: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%) !important;

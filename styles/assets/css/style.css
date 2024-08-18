@@ -189,25 +189,7 @@ input {
   width: 100%;
 }
 
-/* button {
-  background-image: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%);
-  background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
-  border: 0;
-  border-radius: 40px;
-  color: #ffffff;
-  cursor: pointer;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  transition: all 0.5s ease 0s;
-}
 
- button:hover {
-  color: #fff;
-}
-
-button:focus {
-  outline: none;
-} */
 
 .overflow_hide {
   overflow: hidden;
