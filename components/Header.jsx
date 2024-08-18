@@ -60,7 +60,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
 					</button>
 
 					<div
-						className='collapse navbar-collapse '
+						className='collapse navbar-collapse navtest'
 						id='navbarSupportedContent'>
 						<ul className='navbar-nav m-auto'>
 							{menuList.map((menu, i) => (
@@ -71,7 +71,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
 									data-animation-delay={`1.${i + 1}s`}>
 									<a
 										href={menu.link}
-										className='nav-link navtest'>
+										className='nav-link '>
 										{menu.menu}
 									</a>
 								</li>

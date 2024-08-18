@@ -277,16 +277,18 @@
 	font-size: 25px;
 }
 
-.navtest {
+.navtest a{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 	color: #fff;
 	font-size: 15px;
 }
 
-.navtest:hover {
+.navtest a:hover {
 	color: #ac6aff;
 }
+
+
 
 .btn-connect {
 	background-color: rgb(0, 0, 0);
@@ -392,19 +394,16 @@
 	font-size: 16px;
 }
 
+.btn-custom-blue_nav a{
+	font-style: italic;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
 
-	.navtest {
-		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-			'Lucida Sans', Arial, sans-serif;
-		color: #fff;
-		font-size: 19px;
-	}
-
-	.navtest:hover {
-		color: #ac6aff;
-	}
+	.navtest{
+	padding-top: 30px;
+}
 
 	.hero-section {
 		flex-direction: column;
