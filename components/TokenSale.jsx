@@ -112,7 +112,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 								</div>
 								<div className='tk_counter_inner'>
 									<div
-										className='progress animation'
+										className='progress animation boxed'
 										data-animation='fadeInUp'
 										data-animtion-delay='1.3s'>
 										<div
@@ -138,15 +138,16 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 											<strong> {tokenSale?.tokenSold}Soft Caps </strong>
 										</span>
 									</div>
-
-									<a
-										href=''
-										className='btn-custom-blue3 animation'
-										data-animtion='fadeInUp'
-										data-animation-delay='0.1s'>
-										<FaEthereum className='new_font_size' />
-										Buy Token
-									</a>
+									<div className='butpad'>
+										<a
+											href=''
+											className='btn-custom-blue3 animation'
+											data-animtion='fadeInUp'
+											data-animation-delay='0.1s'>
+											<FaEthereum className='new_font_size' />
+											Buy Token
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>

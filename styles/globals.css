@@ -21,6 +21,13 @@
 	margin-bottom: -5px;
 }
 
+.new_font_size_icon{
+	font-size: 1.3rem;
+	margin-left: 0.1rem;
+	margin-bottom: -6px;
+
+}
+
 .icon_color {
 	color: #fff;
 }
@@ -127,6 +134,8 @@
 		'Lucida Sans', Arial, sans-serif;
 }
 
+
+
 .mtk {
 	font-size: 15px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -161,13 +170,16 @@
 	color: #55b021;
 }
 
+.butpad{
+	padding-top: 30px;
+}
+
 .btn-custom-blue3 {
 	padding: 15px 20px;
 	background-color: #ac6aff;
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
 	font-weight: 500;
-	margin-left: 20px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }
@@ -178,7 +190,6 @@
 	color: #ac6aff;
 	border-radius: 5px;
 	font-weight: 500;
-	margin-left: 20px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 }

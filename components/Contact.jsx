@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTwitter, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
 	return (
@@ -100,21 +100,12 @@ const Contact = () => {
 										data-animation='fadeInUp'
 										data-anomation-delay='0.2s'>
 										<a
-											href='/'
+											href='https://www.instagram.com/thehemjay_/'
 											className='icon_color'>
 											<FaFacebookF className='icon_color' />
 										</a>
 									</li>
-									<li
-										className='animation'
-										data-animation='fadeInUp'
-										data-anomation-delay='0.2s'>
-										<a
-											href='/'
-											className='icon_color'>
-											<FaInstagram className='icon_color' />
-										</a>
-									</li>
+									
 									<li
 										className='animation'
 										data-animation='fadeInUp'
@@ -123,6 +114,16 @@ const Contact = () => {
 											href='/'
 											className='icon_color'>
 											<FaTwitter className='icon_color' />
+										</a>
+									</li>
+									<li
+										className='animation'
+										data-animation='fadeInUp'
+										data-anomation-delay='0.2s'>
+										<a
+											href='https://github.com/MujeebSulayman'
+											className='icon_color'>
+											<FaGithub className='icon_color' />
 										</a>
 									</li>
 								</ul>
