@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInsagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Contact = () => {
 	return (
@@ -11,7 +11,7 @@ const Contact = () => {
 					<div className='col-lg-8 col-md-12 offset-lg-2'>
 						<div className='title_default_light title_border text-center'>
 							<h4
-								className='animation conh4'
+								className='animation'
 								data-animation='fadeInUp'
 								data-anomation-delay='0.2s'>
 								Get In Touch
@@ -86,6 +86,47 @@ const Contact = () => {
 									</div>
 								</li>
 							</ul>
+
+							<div className='contact_fellow pt-2 mt-md-4 footsoc'>
+								<h5
+									className='animation'
+									data-animation='fadeInUp'
+									data-anomation-delay='0.2s'>
+									Follow Us
+								</h5>
+								<ul className='list_none social_icon '>
+									<li
+										className='animation'
+										data-animation='fadeInUp'
+										data-anomation-delay='0.2s'>
+										<a
+											href='/'
+											className='icon_color'>
+											<FaFacebookF className='icon_color' />
+										</a>
+									</li>
+									<li
+										className='animation'
+										data-animation='fadeInUp'
+										data-anomation-delay='0.2s'>
+										<a
+											href='/'
+											className='icon_color'>
+											<FaInstagram className='icon_color' />
+										</a>
+									</li>
+									<li
+										className='animation'
+										data-animation='fadeInUp'
+										data-anomation-delay='0.2s'>
+										<a
+											href='/'
+											className='icon_color'>
+											<FaTwitter className='icon_color' />
+										</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>

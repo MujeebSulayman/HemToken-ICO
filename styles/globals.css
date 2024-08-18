@@ -100,7 +100,14 @@
 	padding-bottom: 2rem;
 }
 
-.foot h5{
+.footsoc h5 {
+	font-size: 21px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	color: rgb(255, 255, 255);
+}
+
+.foot h5 {
 	font-size: 24px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
