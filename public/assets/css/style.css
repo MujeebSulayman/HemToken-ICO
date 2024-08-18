@@ -189,7 +189,7 @@ input {
     width: 100%;
 }
 
-button {
+/* button {
     background-image: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%);
     background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
     border: 0;
@@ -207,7 +207,7 @@ button:hover {
 
 button:focus {
     outline: none;
-}
+} */
 
 .overflow_hide {
     overflow: hidden;

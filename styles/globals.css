@@ -394,11 +394,12 @@
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
+
 	.navtest {
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 			'Lucida Sans', Arial, sans-serif;
 		color: #fff;
-		font-size: 17px;
+		font-size: 19px;
 	}
 
 	.navtest:hover {

@@ -84,18 +84,18 @@ const Header = ({ address, setAddress, connectWallet }) => {
 								data-animation='fadeInDown'
 								data-animation-delay='2s'>
 								{address ? (
-									<a
+									<button
 										href='#'
 										className='btn-custom-blue'>
 										{address.slice(0, 13)}...
-									</a>
+									</button>
 								) : (
-									<a
+									<button
 										href='#'
 										onClick={handleConnectWallet}
 										className='btn-custom-blue'>
 										Connect Wallet
-									</a>
+									</button>
 								)}
 							</li>
 						</ul>
