@@ -47,7 +47,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
 					</a>
 
 					<button
-						className='navbar-toggler btn-custom-blue_nav animation'
+						className='navbar-toggler btn-custom-blue animation'
 						type='button'
 						data-toggle='collapse'
 						data-target='#navbarSupportedContent'
@@ -56,7 +56,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
 						aria-label='Toggle navigation'
 						data-animation='fadeInDown'
 						data-animation-delay='1.1s'>
-						<BiMenu className='icon_menu' />
+						<BiMenu />
 					</button>
 
 					<div

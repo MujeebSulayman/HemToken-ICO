@@ -189,9 +189,10 @@ const Contact = () => {
 										placeholder='Message'
 										className='form-control'
 										name='description'
+                    role='2'
 									/>
 								</div>
-								<button className='btn-custom-blue'>Submit</button>
+                <button className='btn-custom-blue2'>Submit</button>
 							</form>
 						</div>
 					</div>
