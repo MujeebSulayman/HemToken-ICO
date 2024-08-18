@@ -233,8 +233,10 @@
 	background-color: #ffffff;
 }
 
+
+
 .btn-custom-blue {
-	padding: 15px 15px;
+	padding: 17px 20px;
 	color: white;
 	border-radius: 3px;
 	background-color: #ac6aff;
@@ -253,7 +255,7 @@
 }
 
 .btn-custom-blue_nav {
-	padding: 8px 13px;
+	padding: 5px 8px;
 	color: white;
 	border-radius: 3px;
 	background-color: #ac6aff;
@@ -272,7 +274,7 @@
 }
 
 .icon_menu {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .navtest {
