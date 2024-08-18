@@ -47,7 +47,7 @@ const index = () => {
 			/>
 			<MobileApp />
 			<Contact />
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 };

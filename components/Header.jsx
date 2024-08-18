@@ -36,9 +36,9 @@ const Header = ({ address, setAddress, connectWallet }) => {
 				<nav className='navbar navbar-expand-lg'>
 					<a
 						href='#home_section'
+						className='navbar-brand page-scroll animation'
 						data-animation='fadeInDown'
-						data-animation-delay='1s'
-						className='navbar-brand page-scroll animation'>
+						data-animation-delay='1s'>
 						<img
 							src='assets/images/brainwave.svg'
 							alt='Logo'

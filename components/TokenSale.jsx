@@ -13,7 +13,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 			className='sectiion_token token_sale bg_light_dark token'
 			data-z-index='1'
 			data-parallax='scroll'
-			data-image-src='assets/images/tokne_bg.png'>
+			data-image-src='assets/images/token_bg.png'>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-lg-6 offset-lg-3 col-md-12 col-sm-12'>
