@@ -189,7 +189,6 @@ const Contact = () => {
 										placeholder='Message'
 										className='form-control'
 										name='description'
-										role='2'
 									/>
 								</div>
 								<button className='btn-custom-blue'>Submit</button>
