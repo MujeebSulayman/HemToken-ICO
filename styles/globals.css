@@ -233,8 +233,6 @@
 	background-color: #ffffff;
 }
 
-
-
 .btn-custom-blue {
 	padding: 10px 20px;
 	color: white;
@@ -277,7 +275,7 @@
 	font-size: 25px;
 }
 
-.navtest a{
+.navtest a {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 	color: #fff;
@@ -287,8 +285,6 @@
 .navtest a:hover {
 	color: #ac6aff;
 }
-
-
 
 .btn-connect {
 	background-color: rgb(0, 0, 0);
@@ -394,16 +390,16 @@
 	font-size: 16px;
 }
 
-.btn-custom-blue_nav a{
+.btn-custom-blue_nav a {
 	font-style: italic;
 }
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
-
-	.navtest{
-	padding-top: 30px;
-}
+	.navtest {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 
 	.hero-section {
 		flex-direction: column;
