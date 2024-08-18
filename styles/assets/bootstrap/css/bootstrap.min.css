@@ -5357,9 +5357,9 @@ tbody.collapse.show {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #fff;
+    color: red;
     text-align: center;
-    background-color: #007bff;
+    background-color: #ac6aff;
     transition: width .6s ease
 }
 
