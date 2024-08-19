@@ -43,11 +43,11 @@ const Contact = () => {
 							</div>
 
 							<ul className='list_none contact_info mt-margin'>
-								
 								<li
 									className='animation'
 									data-animation='fadeInUp'
 									data-anomation-delay='0.2s'>
+									<i className='ion-ios-email'></i>
 									<div className='contact_detail'>
 										<span className='conh4'>Phone Number</span>
 										<p
@@ -62,6 +62,7 @@ const Contact = () => {
 									className='animation'
 									data-animation='fadeInUp'
 									data-anomation-delay='0.2s'>
+									<i className='ion-ios-email'></i>
 									<div className='contact_detail'>
 										<span className='conh4'>Email</span>
 										<p
@@ -117,9 +118,6 @@ const Contact = () => {
 							</div>
 						</div>
 					</div>
-
-
-
 
 					<div className='col-lg-6 col-md-6'>
 						<div

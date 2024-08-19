@@ -180,6 +180,7 @@
 .btn-custom-blue3 {
 	padding: 15px 20px;
 	background-color: #ac6aff;
+	border-width: 0px;
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
 	font-weight: 500;
@@ -203,9 +204,10 @@
 }
 
 .btn-custom-blue2 {
-	padding: 15px 20px;
+	padding: 15px 25px;
 	background-color: #ffffff;
 	color: rgb(6, 0, 0);
+	border-width: 0px;
 	border-radius: 5px;
 	font-weight: 500;
 	margin-left: 20px;
@@ -218,11 +220,32 @@
 	color: #ffffff;
 }
 
+
+.btn-custom-mobile {
+	padding: 15px 20px;
+	background-color: #ffffff;
+	color: rgb(6, 0, 0);
+	border-width: 0px;
+	border-radius: 5px;
+	font-weight: 500;
+	margin-left: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-custom-mobile:hover {
+	background-color: #ac6aff;
+	color: #ffffff;
+}
+
+
+
 .btn-custom-blue1 {
 	padding: 15px 25px;
 	background-color: #ac6aff;
 	color: white;
 	font-weight: 500;
+	border-width: 0px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
 	border-radius: 5px;
@@ -241,6 +264,7 @@
 	padding: 10px 50px;
 	margin-left: 15px;
 	color: white;
+	border-width: 0px;
 	border-radius: 7px;
 	background-color: #ac6aff;
 	font-size: 15px;
@@ -262,9 +286,10 @@
 .btn-custom-blue-scrib {
 	padding: 10px 30px;
 	margin-top: 15px;
-	color: #ac6aff;
+	color: #ffffff;
+	border-width: 0px;
 	border-radius: 7px;
-	background-color: #ffffff;
+	background-color: #ac6aff;
 	font-size: 15px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
@@ -276,14 +301,15 @@
 
 .btn-custom-blue-scrib:hover{
 
-	background-color: #ac6aff;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #ac6aff;
 }
 
 
 .btn-custom-blue {
 	padding: 10px 20px;
 	color: white;
+	border-width: 0px;
 	border-radius: 3px;
 	background-color: #ac6aff;
 	font-size: 15px;
@@ -305,6 +331,7 @@
 	color: white;
 	border-radius: 3px;
 	background-color: #ac6aff;
+	border-width: 0px;
 	font-size: 14px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
 		'Lucida Sans', Arial, sans-serif;
@@ -321,6 +348,7 @@
 
 .icon_menu {
 	font-size: 25px;
+	border-width: 0px;
 }
 
 .navtest a {

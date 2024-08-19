@@ -41,7 +41,7 @@ const MobileApp = () => {
 							<a
 								href='#'
 								onClick={() => transferNativeToken()}
-								className='btn-custom-blue2'>
+								className='btn-custom-mobile'>
 								<IoLogoApple className='new_font_size' />
 								App Store
 							</a>

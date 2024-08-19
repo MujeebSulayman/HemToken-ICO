@@ -26,12 +26,11 @@ const Banner = ({ transferNativeToken }) => {
 						Whitepaper
 					</a>
 					<a
-						href='#'
-						onClick={() => transferNativeToken()}
+						href='#token'
 						className='btn-custom-blue2'>
-						<FaEthereum className='new_font_size' />
-						Buy Token
+						Transfer Token
 					</a>
+					
 				</div>
 			</div>
 			<div className='hero-image'>

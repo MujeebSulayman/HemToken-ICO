@@ -80,7 +80,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 								className='animation tokp'
 								data-animation='fadeInUp'
 								data-animtion-delay='0.2s'>
-								0.5 ETH = 1 MTK
+								0.2 ETH = 1 MTK
 							</p>
 						</div>
 					</div>
@@ -104,7 +104,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 												id='first-name'
 												min={1}
 												className='form-control'
-												onChange={() => setnToken(e.target.value)}
+												onChange={(e) => setnToken(e.target.value)}
 												name='token'
 											/>
 										</div>
@@ -116,12 +116,12 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 										data-animation='fadeInUp'
 										data-animtion-delay='1.3s'>
 										<div
-											className='progress-bar progress-bar-striped gradient_box'
+											className='progress-bar progress-bar-striped gradient'
 											role='progressbar'
 											aria-valuenow={`${persentage}`}
-											aria-valuemin={`${'0'}`}
+											aria-valuemin={'0'}
 											arial-aria-valuemax={'100'}
-											style={{ width: `${persentage}` }}>
+											style={{ width: `${persentage}` ,}}>
 											{showPercentage.slice(0, 4)}%
 										</div>
 
@@ -139,14 +139,14 @@ const TokenSale = ({ buyToken, tokenSale }) => {
 										</span>
 									</div>
 									<div className='butpad'>
-										<a
-											href=''
+										<button
+											onClick={() => buyToken(nToken)}
 											className='btn-custom-blue3 animation'
 											data-animtion='fadeInUp'
 											data-animation-delay='0.1s'>
 											<FaEthereum className='new_font_size' />
 											Buy Token
-										</a>
+										</button>
 									</div>
 								</div>
 							</div>
