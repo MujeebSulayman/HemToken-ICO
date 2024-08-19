@@ -16,7 +16,7 @@ function time() {
 
 function notification() {
     spop({
-        template: '<div class="sale_notification d-flex align-items-center"> <div class="notification_inner"> <h3>' + Math.floor(Math.random() * 8 + 2 ) +  'MTK</h3><p>Sold in <img src="assets/images/' + countries[Math.floor(Math.random() * 7)] + '.png" alt="" /></p></div></div>',
+        template: '<div class="sale_notification d-flex align-items-center"> <div class="notification_inner"> <h3>' + Math.floor(Math.random() * 15 ) +  'MTK</h3><p>Sold in <img src="assets/images/' + countries[Math.floor(Math.random() * 7)] + '.png" alt="" /></p></div></div>',
         group: 'submit-satus',
         style: 'nav-fixed', // error or success
         position: 'bottom-left',
