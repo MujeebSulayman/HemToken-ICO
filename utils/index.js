@@ -10,38 +10,63 @@ import {
 } from '../context/constants';
 
 //CHECK IF WALLET IS CONNECTED FUNCTION
+
+
 export const checkIfWalletConnected = async () => {
 	try {
-		if (!window.ethereum) return console.log('Install MetaMask');
+		const provider = await detectEthereumProvider();
 
-		const accounts = await window.ethereum.request({
+		if (!provider) {
+			console.log('Install MetaMask');
+			alert(
+				'MetaMask is not installed. Please install it to use this feature.'
+			);
+			return null;
+		}
+
+		const accounts = await provider.request({
 			method: 'eth_accounts',
 		});
 
-		const firstAccount = accounts[0];
-		return firstAccount;
+		if (accounts.length > 0) {
+			const firstAccount = accounts[0];
+			console.log('Wallet is connected:', firstAccount);
+			return firstAccount;
+		} else {
+			console.log('No accounts found');
+			return null;
+		}
 	} catch (error) {
-		console.log(error);
+		console.log('Error checking wallet connection:', error);
 	}
 };
+
 
 //CONNECT WALLET FUNCTION
 export const connectWallet = async () => {
 	try {
 		const provider = await detectEthereumProvider();
 
-		if (provider) {
-			const accounts = await provider.request({
-				method: 'eth_requestAccounts',
-			});
-			const firstAccount = accounts[0];
-			console.log('Connected account:', firstAccount);
-			return firstAccount;
-		} else {
-			console.log('Please install MetaMask!');
+		if (!provider) {
+			console.log('Install MetaMask');
 			alert(
 				'MetaMask is not installed. Please install it to use this feature.'
 			);
+			return null;
+		}
+
+		const accounts = await provider.request({
+			method: 'eth_requestAccounts',
+		});
+
+		if (accounts.length > 0) {
+			const firstAccount = accounts[0];
+			console.log('Connected account:', firstAccount);
+			// No need to reload the page, just return the account
+			return firstAccount;
+		} else {
+			console.log('No accounts found');
+			return null;
 		}
 	} catch (error) {
 		console.log('Error connecting wallet:', error);
