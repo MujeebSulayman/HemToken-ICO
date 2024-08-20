@@ -27,19 +27,33 @@ export const checkIfWalletConnected = async () => {
 //CONNECT WALLET FUNCTION
 export const connectWallet = async () => {
 	try {
-		if (!window.ethereum) return console.log('Install MetaMask');
+		// Check if MetaMask is installed
+		if (!window.ethereum) {
+			console.log('Install MetaMask');
+			alert(
+				'MetaMask is not installed. Please install it to use this feature.'
+			);
+			return;
+		}
 
+		// Request accounts from MetaMask
 		const accounts = await window.ethereum.request({
 			method: 'eth_requestAccounts',
 		});
 
 		const firstAccount = accounts[0];
-		window.location.reload();
+		console.log('Connected account:', firstAccount);
+
+		// Instead of reloading the page, set the address directly
+		// This avoids issues with page reloads on mobile
+		// Optionally, you can set this account in a global state or context
 		return firstAccount;
 	} catch (error) {
-		console.log(error);
+		console.log('Error connecting wallet:', error);
+		alert('Failed to connect wallet. Please try again.');
 	}
 };
+
 
 // COMMUNICATION WITH THE SMART CONTRACT
 // FIRST WE COMMUNICATE WITH THE TOKEN CONTRACT
