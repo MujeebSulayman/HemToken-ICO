@@ -1,5 +1,6 @@
 import { ethers } from 'ethers';
 import Web3Modal from 'web3modal';
+import detectEthereumProvider from '@metamask/detect-provider';
 
 import {
 	TOKEN_ADDRESS,
@@ -27,27 +28,21 @@ export const checkIfWalletConnected = async () => {
 //CONNECT WALLET FUNCTION
 export const connectWallet = async () => {
 	try {
-		// Check if MetaMask is installed
-		if (!window.ethereum) {
-			console.log('Install MetaMask');
+		const provider = await detectEthereumProvider();
+
+		if (provider) {
+			const accounts = await provider.request({
+				method: 'eth_requestAccounts',
+			});
+			const firstAccount = accounts[0];
+			console.log('Connected account:', firstAccount);
+			return firstAccount;
+		} else {
+			console.log('Please install MetaMask!');
 			alert(
 				'MetaMask is not installed. Please install it to use this feature.'
 			);
-			return;
 		}
-
-		// Request accounts from MetaMask
-		const accounts = await window.ethereum.request({
-			method: 'eth_requestAccounts',
-		});
-
-		const firstAccount = accounts[0];
-		console.log('Connected account:', firstAccount);
-
-		// Instead of reloading the page, set the address directly
-		// This avoids issues with page reloads on mobile
-		// Optionally, you can set this account in a global state or context
-		return firstAccount;
 	} catch (error) {
 		console.log('Error connecting wallet:', error);
 		alert('Failed to connect wallet. Please try again.');
