@@ -1,5 +1,6 @@
 import React from 'react';
 import { BiMenu } from 'react-icons/bi';
+import { IoMdFiling } from 'react-icons/io';
 
 const Header = ({ address, setAddress, connectWallet }) => {
 	const menuList = [
@@ -87,7 +88,8 @@ const Header = ({ address, setAddress, connectWallet }) => {
 									<button
 										href='#'
 										className='btn-custom-blue'>
-										{address.slice(0, 13)}...
+										<IoMdFiling className='new_font_size' />
+										{address.slice(0, 5)}...{address.slice(-5)}
 									</button>
 								) : (
 									<button
