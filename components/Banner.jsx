@@ -30,7 +30,6 @@ const Banner = ({ transferNativeToken }) => {
 						className='btn-custom-blue2'>
 						Transfer Token
 					</a>
-					
 				</div>
 			</div>
 			<div className='hero-image'>
