@@ -1,6 +1,5 @@
 import { ethers } from 'ethers';
 import Web3Modal from 'web3modal';
-import detectEthereumProvider from '@metamask/detect-provider';
 
 import {
 	TOKEN_ADDRESS,
@@ -10,70 +9,37 @@ import {
 } from '../context/constants';
 
 //CHECK IF WALLET IS CONNECTED FUNCTION
-
-
 export const checkIfWalletConnected = async () => {
 	try {
-		const provider = await detectEthereumProvider();
+		if (!window.ethereum) return console.log('Install MetaMask');
 
-		if (!provider) {
-			console.log('Install MetaMask');
-			alert(
-				'MetaMask is not installed. Please install it to use this feature.'
-			);
-			return null;
-		}
-
-		const accounts = await provider.request({
+		const accounts = await window.ethereum.request({
 			method: 'eth_accounts',
 		});
 
-		if (accounts.length > 0) {
-			const firstAccount = accounts[0];
-			console.log('Wallet is connected:', firstAccount);
-			return firstAccount;
-		} else {
-			console.log('No accounts found');
-			return null;
-		}
+		const firstAccount = accounts[0];
+		return firstAccount;
 	} catch (error) {
-		console.log('Error checking wallet connection:', error);
+		console.log(error);
 	}
 };
-
 
 //CONNECT WALLET FUNCTION
 export const connectWallet = async () => {
 	try {
-		const provider = await detectEthereumProvider();
+		if (!window.ethereum) return console.log('Install MetaMask');
 
-		if (!provider) {
-			console.log('Install MetaMask');
-			alert(
-				'MetaMask is not installed. Please install it to use this feature.'
-			);
-			return null;
-		}
-
-		const accounts = await provider.request({
+		const accounts = await window.ethereum.request({
 			method: 'eth_requestAccounts',
 		});
 
-		if (accounts.length > 0) {
-			const firstAccount = accounts[0];
-			console.log('Connected account:', firstAccount);
-			// No need to reload the page, just return the account
-			return firstAccount;
-		} else {
-			console.log('No accounts found');
-			return null;
-		}
+		const firstAccount = accounts[0];
+		window.location.reload();
+		return firstAccount;
 	} catch (error) {
-		console.log('Error connecting wallet:', error);
-		alert('Failed to connect wallet. Please try again.');
+		console.log(error);
 	}
 };
-
 
 // COMMUNICATION WITH THE SMART CONTRACT
 // FIRST WE COMMUNICATE WITH THE TOKEN CONTRACT

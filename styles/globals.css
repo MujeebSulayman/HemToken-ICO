@@ -220,7 +220,6 @@
 	color: #ffffff;
 }
 
-
 .btn-custom-mobile {
 	padding: 15px 20px;
 	background-color: #ffffff;
@@ -238,7 +237,6 @@
 	color: #ffffff;
 }
 
-
 .btn-custom-blue1 {
 	padding: 15px 25px;
 	background-color: #ac6aff;
@@ -255,7 +253,7 @@
 	background-color: #ffffff;
 }
 
-.footbut{
+.footbut {
 	padding-bottom: 50px;
 }
 
@@ -275,12 +273,10 @@
 	cursor: pointer;
 }
 
-.btn-custom-blue-sub:hover{
-
+.btn-custom-blue-sub:hover {
 	background-color: #ffffff;
 	color: #ac6aff;
 }
-
 
 .btn-custom-blue-scrib {
 	padding: 10px 30px;
@@ -298,12 +294,10 @@
 	cursor: pointer;
 }
 
-.btn-custom-blue-scrib:hover{
-
+.btn-custom-blue-scrib:hover {
 	background-color: #ffffff;
 	color: #ac6aff;
 }
-
 
 .btn-custom-blue {
 	padding: 10px 20px;
