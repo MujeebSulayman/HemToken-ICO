@@ -8,6 +8,8 @@ import {
 	TOKEN_SALE_ADDRESS,
 } from '../context/constants';
 
+
+
 //CHECK IF WALLET IS CONNECTED FUNCTION
 export const checkIfWalletConnected = async () => {
 	try {
